@@ -1,6 +1,6 @@
 {
-  "name": "Node-Website-EC2-Sample-App",
-  "description": "Sample NodeJs web application",
+  "name": "gatefish",
+  "description": "Fetch files and serve uuencoded",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -9,6 +9,10 @@
     "supertest": "3.0.0"
   },
   "scripts": {
-    "test": "mocha --recursive tests --exit"
+    "test": "mocha --recursive tests --exit",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "koa": "^2.10.0"
   }
 }
